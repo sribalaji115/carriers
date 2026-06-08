@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+        content="Sri Balaji Carriers offers Train Cargo, Air Cargo, Road Transport, Door Pickup and Delivery Services across India.">
+    <meta name="keywords" content="Cargo Services, Train Cargo, Air Cargo, Road Transport, Logistics, Hyderabad">
+    <meta name="author" content="Sri Balaji Carriers">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Balaji Carriers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav> <a href="#">Home</a> <a href="#about">About</a> <a href="#services">Services</a> <a
+            href="#contact">Contact</a>
+        <div class="translate-box">
+            <div id="google_translate_element"></div>
+        </div>
+        <script> function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element'); } </script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </nav>
+    <header> <img src="balaji cargo logo.png" alt="Sri Balaji Carriers Logo" class="logo">
+        <h1>SRI BALAJI CARRIERS</h1>
+        <p>Connecting India, Delivering Trust</p> <a class="btn" href="#quote"> Get Quote </a>
+    </header>
+    <section class="hero-section"> <img src="truck.jpg" alt="Sri Balaji Carriers Tata Ace" class="hero-image">
+    </section>
+    <section class="stats">
+        <div>
+            <h2>10+</h2>
+            <p>Cities Connected</p>
+        </div>
+        <div>
+            <h2>Train</h2>
+            <p>Cargo Services</p>
+        </div>
+        <div>
+            <h2>Air</h2>
+            <p>Express Delivery</p>
+        </div>
+        <div>
+            <h2>Road</h2>
+            <p>Transportation</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p> Sri Balaji Carriers provides Train Cargo, Air Cargo, Road Transport, Door Delivery, Railway Clearing and
+                Airport Clearing Services across India. </p>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services"> <input type="checkbox" id="s1" class="toggle"> <label for="s1" class="card">
+                    <h3>🚆 Train Cargo Services</h3>
+                    <p class="desc"> We transport goods safely through trains, which is a cost-effective and reliable
+                        way for long-distance delivery across cities and states. </p>
+                </label> <input type="checkbox" id="s2" class="toggle"> <label for="s2" class="card">
+                    <h3>✈️ Air Cargo Services</h3>
+                    <p class="desc"> We deliver your goods through flights for the fastest shipping option, perfect for
+                        urgent and high-value shipments. </p>
+                </label> <input type="checkbox" id="s3" class="toggle"> <label for="s3" class="card">
+                    <h3>🚚 Road Transportation</h3>
+                    <p class="desc"> We move goods using trucks and lorries, providing flexible and door-to-door
+                        delivery across nearby and long-distance locations. </p>
+                </label> <input type="checkbox" id="s4" class="toggle"> <label for="s4" class="card">
+                    <h3>📦 Door Pickup & Delivery</h3>
+                    <p class="desc"> We pick up your goods from your location and deliver them directly to the
+                        destination, making the process simple and hassle-free. </p>
+                </label> <input type="checkbox" id="s5" class="toggle"> <label for="s5" class="card">
+                    <h3>🚛 Tata Ace Local Delivery</h3>
+                    <p class="desc"> We use small vehicles like Tata Ace for quick and safe delivery of goods within the
+                        local city and nearby areas. </p>
+                </label> <input type="checkbox" id="s6" class="toggle"> <label for="s6" class="card">
+                    <h3>🛫 Airport Clearing</h3>
+                    <p class="desc"> We handle all airport formalities like documentation, customs clearance, and smooth
+                        release of your air cargo. </p>
+                </label> <input type="checkbox" id="s7" class="toggle"> <label for="s7" class="card">
+                    <h3>🚉 Railway Clearing</h3>
+                    <p class="desc"> We manage railway cargo paperwork and clearance to ensure smooth dispatch and
+                        receiving of goods through trains. </p>
+                </label> </div>
+        </div>
+    </section>
+    <section id="network">
+        <div class="container">
+            <h2>Our Network</h2>
+            <p> <span>Hyderabad</span> <span>Kolkata</span> <span>Delhi</span> <span>Mumbai</span> <span>Chennai</span>
+                <span>Bangalore</span> <span>Rajkot</span> <span>Ahmedabad</span> <span>Ranchi (Upcoming)</span> </p>
+        </div>
+    </section>
+    <section id="quote">
+        <div class="container">
+            <h2>Get a Freight Quote</h2>
+            <form action="#">
+                <input type="text" id="name" placeholder="Customer Name" required>
+
+<input type="tel" id="phone" placeholder="Mobile Number" required>
+
+<input type="text" id="pickup" placeholder="Pickup City" required>
+
+<input type="text" id="destination" placeholder="Destination City" required>
+
+<input type="number" id="weight" placeholder="Weight (KG)" required>
+
+<select id="mode">
+    <option>Train Cargo</option>
+    <option>Air Cargo</option>
+    <option>Road Transport</option>
+</select>
+
+<button type="button" onclick="sendQuote()">
+    Request Quote
+</button>
+                </select>
+                <p class="small-text"> Train • Air • Road Cargo Services </p> 
+            </form>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>Visit Our Office</h3> <a href="https://maps.app.goo.gl/ZSsGYWEc6zxR19iC9" target="_blank"
+                        class="location-btn"> 📍 Find Our Office </a>
+                    <p> 6-3-179, Ashoka Arcade,<br> New Bhoiguda,<br> Secunderabad - 500080 </p>
+                    <div class="map-container"> <iframe
+                            src="https://www.google.com/maps?q=6-3-179,Ashoka Arcade,New Bhoiguda,Secunderabad&output=embed"
+                            width="100%" height="250" style="border:0; border-radius:10px;" loading="lazy"> </iframe>
+                    </div>
+                </div>
+                <div class="contact-card">
+                    <h3>Quick Contact</h3> <a class="contact-btn" href="tel:7013032463"> Call Now </a> <a
+                        class="contact-btn" href="https://wa.me/917013032463"> WhatsApp Us </a> <a class="contact-btn"
+                        href="mailto:carriersribalaji@gmail.com"> Email Us </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trust">
+        <div class="container">
+            <h2>Why Choose Sri Balaji Carriers?</h2>
+            <div class="card">✓ Safe Handling</div>
+            <div class="card">✓ On-Time Delivery</div>
+            <div class="card">✓ Door Pickup & Delivery</div>
+            <div class="card">✓ Competitive Freight Rates</div>
+        </div>
+    </section> <input type="checkbox" id="toggle-gallery" hidden> <label for="toggle-gallery" class="gallery-title">
+        <h2>Take a Glimpse of Our Office & Fleet</h2>
+    </label>
+    <section id="gallery">
+        <div class="container">
+            <div class="services-container"> <img src="office1.jpg" alt="Sri Balaji Carriers Office"> <img
+                    src="office2.jpg" alt="Sri Balaji Carriers Office"> <img src="office3.jpg"
+                    alt="Sri Balaji Carriers Office"> <img src="office4.jpg" alt="Sri Balaji Carriers Office">
+            </div>
+        </div>
+    </section>
+    <section id="reviews">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <p>"Excellent service and timely delivery."</p>
+                    <h4>- Rajesh Kumar</h4>
+                </div>
+                <div class="review-card">
+                    <p>"Very reliable cargo partner."</p>
+                    <h4>- Amit Sharma</h4>
+                </div>
+                <div class="review-card">
+                    <p>"Safe handling and professional support."</p>
+                    <h4>- Suresh Patel</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div>
+                <h3>Sri Balaji Carriers</h3>
+                <p>Connecting India, Delivering Trust</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>📞 7013032463</p>
+                <p>📧 vikramsingh6247@gmail.com</p>
+                <p>📍 Secunderabad, Telangana</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4> <a href="#about">About</a><br> <a href="#services">Services</a><br> <a
+                    href="#contact">Contact</a>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright"> © 2026 Sri Balaji Carriers. All Rights Reserved. </p>
+    </footer> <a href="https://wa.me/917013032463" class="whatsapp-float"> ☎ </a>
+    <script> function showMap() { document.getElementById("mapBox").style.display = "block"; } </script>
+    <script>
+
+function sendQuote(){
+
+    let name =
+    document.getElementById("name").value;
+
+    let phone =
+    document.getElementById("phone").value;
+
+    let pickup =
+    document.getElementById("pickup").value;
+
+    let destination =
+    document.getElementById("destination").value;
+
+    let weight =
+    document.getElementById("weight").value;
+
+    let mode =
+    document.getElementById("mode").value;
+
+    let message =
+`Hello Sri Balaji Carriers,
+
+I need a freight quotation.
+
+Name: ${name}
+
+Phone: ${phone}
+
+Pickup City: ${pickup}
+
+Destination City: ${destination}
+
+Weight: ${weight} KG
+
+Transport Mode: ${mode}`;
+
+    let whatsappURL =
+    `https://wa.me/917013032463?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappURL, "_blank");
+
+}
+
+</script>
+</body>
+
+</html>
